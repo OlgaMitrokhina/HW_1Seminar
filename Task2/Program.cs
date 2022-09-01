@@ -15,11 +15,11 @@ b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-Console.WriteLine($"Число {a} наибольшее");
+Console.WriteLine($"Число {a} большее,число {b} меньшее");
 }
 if (a < b)
 {
-Console.WriteLine($"Число {b} наибольшее");
+Console.WriteLine($"Число {b} большее, число {a} меньшее");
 }
 if (a == b)
 {
